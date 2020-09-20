@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+    <test name="Test">
+    <parameter name="username" value="admin"/>
+    <parameter name="password" value="pa$$w0rd"/>
+    <classes>
+        <class name="seleiniumprojects.SuiteCRM" />
+    </classes>
+    </test>
+</suite>
